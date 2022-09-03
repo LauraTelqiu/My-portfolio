@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import Project from "./Project";
 
-export default function Projects() {
+export default function Projects(p) {
   return (
-    <div>Projects</div>
-  )
+    <div>
+      <Project name="Expense Tracker" description="keeps expense records" />
+    </div>
+  );
 }
