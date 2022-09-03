@@ -1,25 +1,22 @@
-import React from 'react'
+import React from "react";
+import profile from "../Assets/images/pic00.jpg";
+import "./Home.css"
+import { Link } from "react-router-dom";
+import Button from '@mui/material/Button';
 
 export default function Home() {
   return (
-    <div>
-      <article id="top" className="wrapper style1">
-        <div className="container">
-          <div className="row">
-            <div className="col-4 col-5-large col-12-medium">
-              <span className="image fit"><img src="images/pic00.jpg" alt="" /></span>
-            </div>
-            <div className="col-8 col-7-large col-12-medium">
-              <header>
-                <h1>Hi. I'm Laura Telqiu.</h1>
-              </header>
-              <p>Software Engineer</p>
-              <a href="#work" className="button large scrolly">Learn more about me</a>
-            </div>
-          </div>
-        </div>
-      </article>
-    </div>
+    <div className="home-page">
+      <div>
+        <img className="profile-pic" src={profile} alt="" />
 
-  )
+        <h1>Hi. I'm Laura Telqiu.</h1>
+
+        <p>Software Engineer</p>
+        <Button className="learn-more-btn">
+          <Link className="learn-more-link" to="/about">Learn more About me</Link>
+        </Button>
+      </div>
+    </div>
+  );
 }
