@@ -1,22 +1,33 @@
 import React from "react";
-import profile from "../Assets/images/pic00.jpg";
-import "./Home.css"
-import { Link } from "react-router-dom";
-import Button from '@mui/material/Button';
+import profilePic from "../Assets/pic00.jpg";
+import Skills from "../components/Skills";
+import SocialMedia from "../components/SocialMedia";
+import "../styles/Home.css";
 
-export default function Home() {
+function Home() {
   return (
-    <div className="home-page">
+    <div className="home">
+      <div className="about">
+        <img src={profilePic} alt="profile"></img>
+        <h2> Hi, My Name is Laura</h2>
+
+        <div className="prompt">
+          <p>
+            Software Engineer motivated by problem solving and completing
+            challenges
+          </p>
+          <div className="smedia">
+            <SocialMedia />
+          </div>
+
+
+        </div>
+      </div>
       <div>
-        <img className="profile-pic" src={profile} alt="" />
-
-        <h1>Hi. I'm Laura Telqiu.</h1>
-
-        <p>Software Engineer</p>
-        <Button className="learn-more-btn">
-          <Link className="learn-more-link" to="/about">Learn more About me</Link>
-        </Button>
+        <Skills />
       </div>
     </div>
   );
 }
+
+export default Home;
