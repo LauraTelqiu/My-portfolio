@@ -8,8 +8,16 @@ import Proj7 from "../Assets/proj7.jpg";
 import Proj8 from "../Assets/proj8.jpg";
 import Proj9 from "../Assets/proj9.jpg";
 import Proj10 from "../Assets/proj10.jpg";
+import Proj11 from "../Assets/proj11.jpg"
 
 export const ProjectList = [
+  {
+    name: "Goal Tracker App",
+    image: Proj11,
+    skills: "React Native, JavaScript",
+    gitUrl: "https://github.com/LauraTelqiu/Goal-Tracker-App",
+    liveUrl: "",
+  },
   {
     name: "Expense Tracker",
     image: Proj1,
