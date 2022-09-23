@@ -11,13 +11,7 @@ import Proj10 from "../Assets/proj10.jpg";
 import Proj11 from "../Assets/proj11.jpg"
 
 export const ProjectList = [
-  {
-    name: "Goal Tracker App",
-    image: Proj11,
-    skills: "React Native, JavaScript",
-    gitUrl: "https://github.com/LauraTelqiu/Goal-Tracker-App",
-    liveUrl: "",
-  },
+
   {
     name: "Expense Tracker",
     image: Proj1,
