@@ -34,9 +34,9 @@ function Navbar() {
       </div>
       <div className="links">
         <Link className="link" to="/">Home</Link>
-        <Link clssName="link" to="/about" target="_blank">About</Link>
+        <Link clssName="link" to="/about">About</Link>
 
-        <Link className="link" to="/projects" target="_blank">Projects</Link>
+        <Link className="link" to="/projects">Projects</Link>
 
         <Link className="link" onClick={resume} to="/resume">
           Resume
