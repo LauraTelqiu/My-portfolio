@@ -8,7 +8,7 @@ import Proj7 from "../Assets/proj7.jpg";
 import Proj8 from "../Assets/proj8.jpg";
 import Proj9 from "../Assets/proj9.jpg";
 import Proj10 from "../Assets/proj10.jpg";
-import Proj11 from "../Assets/proj11.jpg"
+import Proj11 from "../Assets/guessnum.png";
 
 export const ProjectList = [
 
@@ -33,6 +33,14 @@ export const ProjectList = [
     gitUrl: "https://github.com/LauraTelqiu/Paint-Store.git",
     liveUrl: "https://lauratelqiu.github.io/Paint-Store/",
   },
+  {
+    name: "Guess My Number",
+    image: Proj11,
+    skills: "JavaScript, CSS, HTML",
+    gitUrl: "https://github.com/LauraTelqiu/Guess-my-number",
+    liveUrl: "https://guessnumbernow.netlify.app/",
+  },
+
   {
     name: "Hater - Group Project",
     image: Proj4,
