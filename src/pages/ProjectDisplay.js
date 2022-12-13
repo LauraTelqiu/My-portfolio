@@ -9,11 +9,11 @@ function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
   const gitClick = () => {
-    window.location.assign(project.gitUrl);
+    window.location.replace(project.gitUrl);
 
   }
   const liveClick = () => {
-    window.location.assign(project.liveUrl);
+    window.location.replace(project.liveUrl);
 
   }
 
