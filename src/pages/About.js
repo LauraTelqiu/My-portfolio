@@ -9,7 +9,7 @@ function About() {
 
         <p>
           <br></br>
-          Laura Software engineer with hands-on experience inspired by solving complex
+          Software engineer with hands-on experience inspired by solving complex
           challenges and a drive to always learn more. An organized and
           determined team member that doesn’t fight to outshine everyone, by
           bringing energy into collaboration and working jointly to bring the
