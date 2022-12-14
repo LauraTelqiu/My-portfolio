@@ -14,7 +14,7 @@ function Navbar() {
   }, [location]);
 
   const resume = () => {
-    window.location.replace(
+    window.location.assingn(
       "https://drive.google.com/file/d/1UCuns5cvRJFisButbn6v9sgVnZj8H4Lq/view?usp=sharing"
     );
 

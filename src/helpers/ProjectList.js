@@ -9,9 +9,9 @@ import Proj8 from "../Assets/proj8.jpg";
 import Proj9 from "../Assets/proj9.jpg";
 import Proj10 from "../Assets/proj10.jpg";
 import Proj11 from "../Assets/guessnum.png";
+import PigGame from "../Assets/pig-game.png";
 
 export const ProjectList = [
-
   {
     name: "Expense Tracker",
     image: Proj1,
@@ -20,18 +20,11 @@ export const ProjectList = [
     liveUrl: "https://expense-tracker-5b555b.netlify.app/",
   },
   {
-    name: "Flash Cards Game",
-    image: Proj2,
-    skills: "React, Node.js, MongoDB",
-    gitUrl: "https://github.com/LauraTelqiu/Flash-Cards-Game.git",
-    liveUrl: "https://laee.netlify.app",
-  },
-  {
-    name: "Paint Store",
-    image: Proj3,
-    skills: "HTMl, CSS",
-    gitUrl: "https://github.com/LauraTelqiu/Paint-Store.git",
-    liveUrl: "https://lauratelqiu.github.io/Paint-Store/",
+    name: "Pig Game",
+    image: PigGame,
+    skills: "HTML, CSS, JavaScript",
+    gitUrl: "https://github.com/LauraTelqiu/pig-game",
+    liveUrl: "https://piggameplaynow.netlify.app/",
   },
   {
     name: "Guess My Number",
@@ -39,6 +32,29 @@ export const ProjectList = [
     skills: "JavaScript, CSS, HTML",
     gitUrl: "https://github.com/LauraTelqiu/Guess-my-number",
     liveUrl: "https://guessnumbernow.netlify.app/",
+  },
+
+  {
+    name: "Flash Cards Game",
+    image: Proj2,
+    skills: "React, Node.js, MongoDB",
+    gitUrl: "https://github.com/LauraTelqiu/Flash-Cards-Game.git",
+    liveUrl: "https://laee.netlify.app",
+  },
+  {
+    name: "React UI Pattern",
+    image: Proj7,
+    skills: "JavaScript, React, REST API, HTML, CSS",
+    gitUrl: "https://github.com/LauraTelqiu/React-API-UI-Pattern.git",
+    liveUrl: "https://catland-react.netlify.app/",
+  },
+
+  {
+    name: "Paint Store",
+    image: Proj3,
+    skills: "HTMl, CSS",
+    gitUrl: "https://github.com/LauraTelqiu/Paint-Store.git",
+    liveUrl: "https://lauratelqiu.github.io/Paint-Store/",
   },
 
   {
@@ -62,13 +78,7 @@ export const ProjectList = [
     gitUrl: "https://github.com/LauraTelqiu/Restaurant-CRUD-WebApp",
     liveUrl: "https://whereny.netlify.app/",
   },
-  {
-    name: "React UI Pattern",
-    image: Proj7,
-    skills: "JavaScript, React, REST API, HTML, CSS",
-    gitUrl: "https://github.com/LauraTelqiu/React-API-UI-Pattern.git",
-    liveUrl: "https://catland-react.netlify.app/",
-  },
+
   {
     name: "REST API",
     image: Proj8,
@@ -90,5 +100,4 @@ export const ProjectList = [
     gitUrl: "https://github.com/LauraTelqiu/API-using-Python-Flask-and-SQL.git",
     liveUrl: "",
   },
-
 ];
