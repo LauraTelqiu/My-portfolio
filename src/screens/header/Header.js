@@ -1,6 +1,6 @@
 import React from "react";
 import profilePic from "../../images/profile.jpg";
-// import Skills from "../components/Skills";
+
 import SocialMedia from "../../components/SocialMedia"
 import "./header.css";
 
@@ -9,7 +9,7 @@ function Home() {
     <div className="home">
       <div className="about">
         <img src={profilePic} alt="profile"></img>
-        <h2> Hi, My Name is Laura</h2>
+        <h2>Laura Telqiu</h2>
 
         <div className="prompt">
           <p>
@@ -23,9 +23,7 @@ function Home() {
 
         </div>
       </div>
-      {/* <div>
-        <Skills />
-      </div> */}
+
     </div>
   );
 }

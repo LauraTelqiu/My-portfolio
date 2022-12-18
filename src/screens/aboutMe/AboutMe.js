@@ -1,13 +1,16 @@
-import React from 'react'
-import './about.css'
+import React from "react";
+import "./aboutMe.css";
+// import profile from '../../images/profile.jpg'
 
-function About() {
+function AboutMe() {
   return (
-    <div className="aboutpage" id='about-me'>
-      <div>
-
+    <div className="about__container" id="about-me">
+      {/* <div>
+        <img src={profile} alt="profile icon" />
+      </div> */}
+      <div className="about__text">
+        <h1>About Me</h1>
         <p>
-          <br></br>
           Software engineer with hands-on experience inspired by solving complex
           challenges and a drive to always learn more. An organized and
           determined team member that doesn’t fight to outshine everyone, by
@@ -19,11 +22,9 @@ function About() {
           user-facing products are equally enjoyable to interact with!
         </p>
 
-        {/* <Skills /> */}
       </div>
     </div>
   );
 }
 
-export default About;
-
+export default AboutMe;

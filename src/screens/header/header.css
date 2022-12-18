@@ -25,6 +25,7 @@
   align-items: center;
   text-align: center;
   background: #565656;
+
 }
 
 .about h2 {
@@ -32,6 +33,8 @@
   font-size: 60px;
   color: #f2d4a6;
   height: 50px;
+  padding-bottom: 5%;
+
 }
 
 .about .prompt {

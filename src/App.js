@@ -1,17 +1,19 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import NavigationBar from './screens/navigationBar/NavigationBar';
-import About from './screens/about/About'
-import Projects from './screens/projects/Projects';
-import Header from './screens/header/Header'
+import "./App.css"
+import NavBar from "./screens/navigationBar/NavBar";
+import Header from "./screens/header/Header";
+import AboutMe from "./screens/aboutMe/AboutMe";
+import Technologies from "./screens/technologies/Technologies";
+import Portfolio from "./screens/portfolio/Portfolio";
+
 
 function App() {
   return (
-    <div className="App">
-      <NavigationBar />
+    <div>
+      <NavBar />
       <Header />
-      <About />
-      <Projects />
+      <AboutMe />
+      <Technologies />
+      <Portfolio />
 
     </div>
   );
