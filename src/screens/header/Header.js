@@ -1,8 +1,8 @@
 import React from "react";
-import profilePic from "../Assets/pic00.jpg";
-import Skills from "../components/Skills";
-import SocialMedia from "../components/SocialMedia";
-import "../styles/Home.css";
+import profilePic from "../../images/profile.jpg";
+// import Skills from "../components/Skills";
+import SocialMedia from "../../components/SocialMedia"
+import "./header.css";
 
 function Home() {
   return (
@@ -23,9 +23,9 @@ function Home() {
 
         </div>
       </div>
-      <div>
+      {/* <div>
         <Skills />
-      </div>
+      </div> */}
     </div>
   );
 }

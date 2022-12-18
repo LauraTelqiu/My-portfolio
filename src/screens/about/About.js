@@ -1,10 +1,9 @@
-import React from "react";
-import Skills from "../components/Skills";
-import "../styles/About.css";
+import React from 'react'
+import './about.css'
 
 function About() {
   return (
-    <div className="aboutpage">
+    <div className="aboutpage" id='about-me'>
       <div>
 
         <p>
@@ -20,10 +19,11 @@ function About() {
           user-facing products are equally enjoyable to interact with!
         </p>
 
-        <Skills />
+        {/* <Skills /> */}
       </div>
     </div>
   );
 }
 
 export default About;
+

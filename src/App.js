@@ -1,25 +1,20 @@
-import "./App.css";
-import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import ProjectDisplay from "./pages/ProjectDisplay";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavigationBar from './screens/navigationBar/NavigationBar';
+import About from './screens/about/About'
+import Projects from './screens/projects/Projects';
+import Header from './screens/header/Header'
 
-
-export default function App() {
+function App() {
   return (
-    <div>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/project/:id" element={<ProjectDisplay />} />
+    <div className="App">
+      <NavigationBar />
+      <Header />
+      <About />
+      <Projects />
 
-      </Routes>
-      <Footer />
     </div>
   );
 }
+
+export default App;
