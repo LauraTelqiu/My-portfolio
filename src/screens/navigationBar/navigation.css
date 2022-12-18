@@ -19,8 +19,11 @@
   color: var(--font-color) !important;
 } */
 
+
 .navbar-light .navbar-toggler-icon {
   filter: invert(1);
+
+
 }
 
 .links a:hover {
