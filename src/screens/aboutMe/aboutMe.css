@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 5%;
+  padding-top: 10%;
   background-color: var(--nav-color);
 
 
@@ -23,7 +23,7 @@
 
 
 .about__text {
-  max-width: 900px;
+  max-width: 1000px;
   /* color: var(--font-color) */
 }
 
