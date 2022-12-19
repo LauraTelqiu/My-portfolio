@@ -16,7 +16,7 @@ function NavigationBar() {
     <div id="home">
       <Navbar className="navigation__container" style={{
 
-        zIndex: '2', position: 'fixed', paddingTop: 0, width: '100%'
+        zIndex: '2', position: 'fixed', paddingTop: 0, width: '100%', fontSize: "x-large"
       }} collapseOnSelect
         expand="md">
         {/* <Navbar.Brand style={{ marginLeft: '1rem' }} href="#home">Laura Telqiu</Navbar.Brand> */}
