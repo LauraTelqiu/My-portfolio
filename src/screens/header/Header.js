@@ -29,6 +29,7 @@ function Home() {
           <SocialMedia />
         </div>
       </div>
+
       <div>
 
       </div>

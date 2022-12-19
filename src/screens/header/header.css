@@ -1,15 +1,9 @@
 .home {
-  width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
   align-items: center;
   font-family: "Arial", sans-serif;
   color: #fba92c;
+  background-color: var(background-color);
 }
-
 
 .about img {
   object-fit: cover;
@@ -17,7 +11,6 @@
   height: 220px;
   border-radius: 100%;
   border: 20px solid #201815;
-
 }
 
 .about {
@@ -30,7 +23,7 @@
   align-items: center;
   text-align: center;
   background: #565656;
-
+  padding-top: 10%;
 }
 
 .about h2 {
@@ -56,6 +49,10 @@
 
 .smedia {
   cursor: pointer;
+}
+
+#about-me.about_container {
+  background-color: red;
 }
 
 @media only screen and (max-width: 900px) {
