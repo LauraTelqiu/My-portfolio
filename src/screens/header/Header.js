@@ -3,6 +3,7 @@ import profilePic from "../../images/profile.jpg";
 import SocialMedia from "../../components/SocialMedia";
 import Typed from "react-typed";
 
+
 import "./header.css";
 
 function Home() {
@@ -27,6 +28,9 @@ function Home() {
         <div className="prompt">
           <SocialMedia />
         </div>
+      </div>
+      <div>
+
       </div>
     </div>
   );
