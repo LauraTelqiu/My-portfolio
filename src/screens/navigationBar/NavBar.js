@@ -15,6 +15,7 @@ function NavigationBar() {
   return (
     <div id="home">
       <Navbar className="navigation__container" style={{
+
         zIndex: '2', position: 'fixed', paddingTop: 0, width: '100%'
       }} collapseOnSelect
         expand="md">
