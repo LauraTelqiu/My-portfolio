@@ -17,6 +17,7 @@
   height: 220px;
   border-radius: 100%;
   border: 20px solid #201815;
+
 }
 
 .about {
@@ -29,6 +30,7 @@
   align-items: center;
   text-align: center;
   background: #565656;
+  padding-top: 10%;
 }
 
 .about h2 {
@@ -43,6 +45,7 @@
   width: 40%;
   font-size: 30px;
   color: #fcf2e8;
+  padding-top: 10%;
 }
 
 .prompt svg {
