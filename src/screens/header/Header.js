@@ -27,13 +27,15 @@ function Home() {
 
         <div className="prompt">
           <SocialMedia />
+
         </div>
       </div>
-
-      <div>
-
-      </div>
     </div>
+
+
+
+
+
   );
 }
 

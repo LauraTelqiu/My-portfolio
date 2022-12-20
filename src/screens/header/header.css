@@ -38,7 +38,8 @@
   width: 40%;
   font-size: 30px;
   color: #fcf2e8;
-  padding-top: 10%;
+  /* padding-top: 10%; */
+  background-color: var(background-color);
 }
 
 .prompt svg {
