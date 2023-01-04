@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   padding: 3rem;
-  /* background-color: var(--nav-color) */
+  box-sizing: content-box;
 
 }
 
@@ -40,6 +40,6 @@
 }
 
 .tech__card:hover {
-  background-color: var(--font-color-hover);
+  background-color: var(--nav-color-hover);
   transform: scale(1.05);
 }
