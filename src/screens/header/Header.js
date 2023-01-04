@@ -16,7 +16,7 @@ function Home() {
         <Typed
           strings={[
             " ",
-            "Motivated by poroblem solving and completing challenges",
+            "Motivated by problem-solving and completing challenges ",
             " ",
             " ",
           ]}
