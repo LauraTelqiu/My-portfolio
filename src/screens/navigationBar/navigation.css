@@ -8,7 +8,8 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: var(--font-color) !important;
+
+  color: var(--bacground-color) !important;
 
 
 }
@@ -29,5 +30,5 @@
 }
 
 .links a:hover {
-  background-color: var(--font-color-hover);
+  background-color: #f2d4a6;
 }

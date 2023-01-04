@@ -8,7 +8,7 @@ import Footer from "./screens/footer/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <NavBar />
       <Header />
       <AboutMe />

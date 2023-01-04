@@ -1,15 +1,15 @@
 import React from "react";
 import "./aboutMe.css";
-// import profile from '../../images/profile.jpg'
+import profile from '../../images/profile.jpg'
 
 function AboutMe() {
   return (
     <div className="about__container" id="about-me">
-      {/* <div>
+      <div>
         <img src={profile} alt="profile icon" />
-      </div> */}
+      </div>
       <div className="about__text">
-        <h1>About Me</h1>
+        {/* <h1>About Me</h1> */}
         <p>
           Software engineer with hands-on experience inspired by solving complex
           challenges and a drive to always learn more. An organized and

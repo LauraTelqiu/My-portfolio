@@ -39,7 +39,7 @@ function Portfolio() {
         <Modal.Footer>
           <div>Technologies used: </div>
           <p style={{ fontSize: '0.8rem', fontWeight: "bold", marginRight: 'auto' }}>{data.tech}</p>
-          <Button style={{ backgroundColor: "var(--nav-color)", border: "1px solid var(--nav-color-hover)" }} onClick={() => setModalShow(false)}>Close</Button>
+          <Button style={{ color: "var( --font-color-hover)", backgroundColor: "var(--nav-color)", border: "1px solid var(--nav-color-hover)" }} onClick={() => setModalShow(false)}>Close</Button>
         </Modal.Footer>
       </Modal>
     )
@@ -72,14 +72,14 @@ function Portfolio() {
 
   return (
     <div className="portfolio__main__container" id="portfolio">
-      <h1>PORTFOLIO</h1>
+      <h1 style={{ color: "var(--font-color-hover)" }}>PORTFOLIO</h1>
 
       <Container fluid="lg" style={{ padding: '2rem 0' }}>
         <Row>
           {mapped}
         </Row>
       </Container>
-    </div>
+    </div >
   )
 }
 
