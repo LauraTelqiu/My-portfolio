@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
 .App {
   font-family: 'Nunito', sans-serif;
 
@@ -7,11 +13,12 @@
 }
 
 :root {
-  --nav-color: #e7ad57;
+  --nav-color: #daab66;
   --background-color: linear-gradient(to top left, #c3c0c0 0%, rgb(52, 34, 1) 100%);
   --nav-color-hover: #fcf2e8;
   --nav-border-color: hsl(210, 11%.45%);
   --light-color: hsl(209, 100%, 92%);
   --font-color: hsl(0, 0%, 100%);
   --font-color-hover: hsl(0, 0%, 40%);
+  --portfolio-background: rgb(104, 95, 84);
 }

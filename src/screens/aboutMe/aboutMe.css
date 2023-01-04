@@ -1,13 +1,16 @@
 .about__container {
-  /* margin: 5rem 0; */
-  padding: 15%;
+  margin: 5rem 0;
+  padding: 10%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   box-sizing: content-box;
-  background-color: rgb(253, 234, 199);
+  /* background-color: #fdf1d9; */
+
 }
+
+
 
 .about__container img {
   width: 15rem;
@@ -17,12 +20,14 @@
   margin-bottom: 1rem;
   object-fit: cover;
 
+
 }
 
 .about__text {
   max-width: 600px;
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
+  color: white;
   padding-left: 10%;
 
 }
@@ -31,12 +36,35 @@
 
 @media only screen and (max-width: 900px) {
   .about__container {
+
     flex-direction: column;
+    justify-content: center;
+    box-sizing: content-box;
+    padding-top: 5%;
+
+
+
+  }
+
+
+
+  .about__container img {
+    width: 9rem;
+    height: 11rem;
+
+
   }
 }
 
 @media only screen and (max-width: 700px) {
-  .about__text {
-    max-width: 300px;
+  .about__container {
+    padding-top: 10%;
+
   }
+
+  .about__text {
+    max-width: 400px;
+
+  }
+
 }

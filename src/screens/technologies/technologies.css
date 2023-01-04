@@ -1,6 +1,6 @@
 .technologies__container {
   /* height: 100vh; */
-  background-image: var(--background-color);
+  /* background-image: var(--background-color); */
   color: var(--nav-color);
   display: flex;
   flex-direction: column;
