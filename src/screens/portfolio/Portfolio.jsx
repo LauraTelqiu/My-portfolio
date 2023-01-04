@@ -72,7 +72,7 @@ function Portfolio() {
 
   return (
     <div className="portfolio__main__container" id="portfolio">
-      <h1 style={{ color: "var(--font-color-hover)" }}>PORTFOLIO</h1>
+      <h1 style={{ color: "var(--nav-color)" }}>PORTFOLIO</h1>
 
       <Container fluid="lg" style={{ padding: '2rem 0' }}>
         <Row>
