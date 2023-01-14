@@ -15,7 +15,8 @@ export const portfolioData = [
   {
     name: "Expense Tracker",
     image: Expense,
-    summary: 'Application where users can see,add and filter their expenses.',
+    summary:
+      "A web application built with ReactJS that allows users to effectively manage their expenses, featuring functionality for viewing, adding, and filtering by year, all displayed through an interactive and animated user interface that dynamically updates to show costs for the selected years.",
     tech: "JavaScript, React, CSS",
     gitHub: "https://github.com/LauraTelqiu/Expense-Tracker",
     link: "https://expense-tracker-5b555b.netlify.app/",
@@ -23,7 +24,8 @@ export const portfolioData = [
   {
     name: "Pig Game",
     image: PigGame,
-    summary: "Players take turns to roll a single die as many times as they wish, adding all roll results to a running total, but losing their gained score for the turn if they roll a 1.",
+    summary:
+      "A dice game where players roll to earn points and lose them on a roll of 1. The game is interactive and has a user-friendly interface. The game logic is implemented using JavaScript and the winner is the one who reaches the highest point..",
     tech: "HTML, CSS, JavaScript",
     gitHub: "https://github.com/LauraTelqiu/pig-game",
     link: "https://piggameplaynow.netlify.app/",
@@ -31,7 +33,8 @@ export const portfolioData = [
   {
     name: "Guess My Number",
     image: GuessNumber,
-    summary: "A simple guessing game where a user is supposed to guess a number between 0 and 20.",
+    summary:
+      "A number-guessing game where a player thinks of a number and the computer attempts to guess it through a series of prompts. The player gives feedback to the computer if the guess is too high or too low, and the computer uses this feedback to adjust and make more accurate guesses. The game ends when the computer correctly guesses the player's number.",
     tech: "JavaScript, CSS, HTML",
     gitHub: "https://github.com/LauraTelqiu/Guess-my-number",
     link: "https://guessnumbernow.netlify.app/",
@@ -41,7 +44,7 @@ export const portfolioData = [
     name: "Flash Cards Game",
     image: FlashCards,
     summary:
-      "Flash Cards Game to test the knowledge of capials of Europiean Countires",
+      "Flash Card Game to test and enhance understanding of European capital cities.The game randomly presents 10 countries per round to challenge your knowledge.",
     tech: "React, Node.js, MongoDB",
     gitHub: "https://github.com/LauraTelqiu/Flash-Cards-Game.git",
     link: "https://laee.netlify.app",
@@ -49,7 +52,7 @@ export const portfolioData = [
   {
     name: "Cat Facts",
     image: CatFacts,
-    summary: "Cat Facts UI Pattern using third party API ",
+    summary: "Designing a user interface pattern for displaying cat facts utilizing a third-party API. ",
     tech: "JavaScript, React, REST API, HTML, CSS",
     gitHub: "https://github.com/LauraTelqiu/React-API-UI-Pattern.git",
     link: "https://catland-react.netlify.app/",
@@ -58,7 +61,8 @@ export const portfolioData = [
   {
     name: "Paint Store",
     image: PaintStore,
-    summary: "Color-rich web page for a home paint business. It displays information about using color in a home and color swatches with varying lightness, saturation, and hue.",
+    summary:
+      "Color-rich web page for a home paint business. It displays information about using color in a home and color swatches with varying lightness, saturation, and hue.",
     tech: "HTMl, CSS",
     gitHub: "https://github.com/LauraTelqiu/Paint-Store.git",
     link: "https://lauratelqiu.github.io/Paint-Store/",
@@ -67,7 +71,7 @@ export const portfolioData = [
   {
     name: "Hater - Group Project",
     image: Hater,
-    summary: "Group Project on Twitter clone called Hater",
+    summary: "Collaborative project creating a clone of the Twitter platform called Hater.",
     tech: "JavaScript, SQL, Django, REST API, CSS",
     gitHub: "https://github.com/LauraTelqiu/hater.git",
     link: "https://haterip.netlify.app/",
@@ -85,7 +89,7 @@ export const portfolioData = [
     name: "CRUD WebApp",
     image: WhereTo,
     summary:
-      "Team Project on a CRUD web application displaying the top-rated restaurant in NYC.",
+      "Collaborative project creating a web application for displaying top-rated restaurants in NYC with CRUD functionality.",
     tech: "JavaScript, React, HTML, CSS",
     gitHub: "https://github.com/LauraTelqiu/Restaurant-CRUD-WebApp",
     link: "https://whereny.netlify.app/",
@@ -94,8 +98,8 @@ export const portfolioData = [
   {
     name: "REST API",
     image: FriendsApi,
-    summary: "REST API with data from the Friends 90's comedy TV show.",
-    tech: "JavaScript, ReactJs, HTML, CSS",
+    summary: "RESTful API that delivers CRUD operations for data related to Friends TV show, including production year, duration, director, ratings for all 236 episodes ",
+    tech: "ExpressJS, MongoDb",
     gitHub: "https://github.com/LauraTelqiu/friends-tv-show-api.git",
     link: "https://friends-show-api.herokuapp.com/api/",
   },
@@ -103,7 +107,7 @@ export const portfolioData = [
     name: "JSON API",
     image: WhereToApi,
     summary:
-      "A JSON API that offers data on the most coveted restaurants, bars, and activity spots in NYC.",
+      "JSON API providing information on highly sought-after dining, drinking and activity venues in New York City.",
     tech: "ExpressJS, MongoDB JavaScript, NodeJS, REST API ",
     gitHub: "https://github.com/LauraTelqiu/backend_api_restaurant",
     link: "https://restaurant-backend-appication.herokuapp.com/api/",
@@ -111,7 +115,7 @@ export const portfolioData = [
   {
     name: "Restaurant Categories API",
     image: RestaurantApi,
-    summary: "REST API that offers data on categoires of restaurants",
+    summary: " RESTful API that delivers information on various categories of restaurants.",
     tech: "Python, Django",
     gitHub: "https://github.com/LauraTelqiu/API-using-Python-Flask-and-SQL.git",
     link: "",
