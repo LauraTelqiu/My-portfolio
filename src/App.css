@@ -9,12 +9,13 @@
 }
 
 :root {
-  --nav-color: #daab66;
+  /* --nav-color: linear-gradient(to top left, #d98928 0%, #935509 100%); */
+  --nav-color: rgb(252, 190, 75);
   --background-color: linear-gradient(to top left, #c3c0c0 0%, rgb(52, 34, 1) 100%);
   --nav-color-hover: #fcf2e8;
   --nav-border-color: hsl(210, 11%.45%);
   --light-color: hsl(209, 100%, 92%);
   --font-color: hsl(0, 0%, 100%);
   --font-color-hover: hsl(0, 0%, 40%);
-  --portfolio-background: rgb(104, 95, 84);
+  --portfolio-background: rgb(94, 90, 84);
 }

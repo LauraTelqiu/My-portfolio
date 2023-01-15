@@ -2,7 +2,7 @@ import Expense from "../images/expense.png";
 import PigGame from "../images/pig-game.png";
 import GuessNumber from "../images/guessnum.png";
 import FlashCards from "../images/flashCards.jpg";
-import CatFacts from "../images/catFacts.jpg";
+// import CatFacts from "../images/catFacts.jpg";
 import PaintStore from "../images/paintStore.jpg";
 import Hater from "../images/hater.jpg";
 import TicTacToe from "../images/tic-tac-toe.jpg";
@@ -34,7 +34,7 @@ export const portfolioData = [
     name: "Guess My Number",
     image: GuessNumber,
     summary:
-      "A number-guessing game where a player thinks of a number and the computer attempts to guess it through a series of prompts. The player gives feedback to the computer if the guess is too high or too low, and the computer uses this feedback to adjust and make more accurate guesses. The game ends when the computer correctly guesses the player's number.",
+      "Javascript-based game where the user attempts to guess a randomly generated number through prompts, receiving feedback on whether their guesses are too high or too low, until they correctly guess the number.",
     tech: "JavaScript, CSS, HTML",
     gitHub: "https://github.com/LauraTelqiu/Guess-my-number",
     link: "https://guessnumbernow.netlify.app/",
@@ -45,18 +45,18 @@ export const portfolioData = [
     image: FlashCards,
     summary:
       "Flash Card Game to test and enhance understanding of European capital cities.The game randomly presents 10 countries per round to challenge your knowledge.",
-    tech: "React, Node.js, MongoDB",
+    tech: "JavaScript, CSS, HTML",
     gitHub: "https://github.com/LauraTelqiu/Flash-Cards-Game.git",
     link: "https://laee.netlify.app",
   },
-  {
-    name: "Cat Facts",
-    image: CatFacts,
-    summary: "Designing a user interface pattern for displaying cat facts utilizing a third-party API. ",
-    tech: "JavaScript, React, REST API, HTML, CSS",
-    gitHub: "https://github.com/LauraTelqiu/React-API-UI-Pattern.git",
-    link: "https://catland-react.netlify.app/",
-  },
+  // {
+  //   name: "Cat Facts",
+  //   image: CatFacts,
+  //   summary: "Auser interface pattern built with React that utilizes a third-party API to display cat facts",
+  //   tech: "ReactJS, REST API, CSS",
+  //   gitHub: "https://github.com/LauraTelqiu/React-API-UI-Pattern.git",
+  //   link: "https://catland-react.netlify.app/",
+  // },
 
   {
     name: "Paint Store",
@@ -72,7 +72,7 @@ export const portfolioData = [
     name: "Hater - Group Project",
     image: Hater,
     summary: "Collaborative project creating a clone of the Twitter platform called Hater.",
-    tech: "JavaScript, SQL, Django, REST API, CSS",
+    tech: "ReactJs, SQL, Django, REST API, CSS",
     gitHub: "https://github.com/LauraTelqiu/hater.git",
     link: "https://haterip.netlify.app/",
   },
@@ -80,7 +80,7 @@ export const portfolioData = [
     name: "Tic-Tac-Toe Game",
     image: TicTacToe,
     summary:
-      "A game in which two players take turns in drawing either an ` O' or an ` X' in one square of a grid consisting of nine squares.",
+      "A Javascript-based game in which two players take turns placing either an 'O' or 'X' in a 3x3 grid and the player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game",
     tech: "JavaScript, HTML, CSS",
     gitHub: "https://github.com/LauraTelqiu/tic-tac-toe.git",
     link: "https://ticttactoe.netlify.app",
@@ -90,7 +90,7 @@ export const portfolioData = [
     image: WhereTo,
     summary:
       "Collaborative project creating a web application for displaying top-rated restaurants in NYC with CRUD functionality.",
-    tech: "JavaScript, React, HTML, CSS",
+    tech: "ReactJS, CSS, HTML",
     gitHub: "https://github.com/LauraTelqiu/Restaurant-CRUD-WebApp",
     link: "https://whereny.netlify.app/",
   },
