@@ -10,8 +10,29 @@ import WhereTo from "../images/whereTo.jpg";
 import FriendsApi from "../images/friendsApi.jpg";
 import WhereToApi from "../images/whereToApi.jpg";
 import RestaurantApi from "../images/restaurant.jpg";
+import Cloud from "../images/cloud.png"
+import Backroads from "../images/backroads.png"
 
 export const portfolioData = [
+  {
+    name: "Tour Company Web App",
+    image: Backroads,
+    summary:
+      "Web App featuring a navigation bar that provides access to various sections of the website, including links to social media accounts and displaying a logo.",
+    tech: "ReactJs, CSS",
+    gitHub: "https://github.com/LauraTelqiu/backroads-app",
+    link: "https://backroads-web-app.netlify.app/",
+  },
+
+  {
+    name: "Cloud Managment Web App",
+    image: Cloud,
+    summary:
+      "Cloud Managment Web App featuring a navigation bar that provides access to various sections of the website",
+    tech: "ReactJS, Tailwind CSS",
+    gitHub: "https://github.com/LauraTelqiu/cloud-managment-front-end-website",
+    link: "https://cloud-managment-web.netlify.app/",
+  },
   {
     name: "Expense Tracker",
     image: Expense,
@@ -40,15 +61,7 @@ export const portfolioData = [
     link: "https://guessnumbernow.netlify.app/",
   },
 
-  {
-    name: "Flash Cards Game",
-    image: FlashCards,
-    summary:
-      "Flash Card Game to test and enhance understanding of European capital cities.The game randomly presents 10 countries per round to challenge your knowledge.",
-    tech: "JavaScript, CSS, HTML",
-    gitHub: "https://github.com/LauraTelqiu/Flash-Cards-Game.git",
-    link: "https://laee.netlify.app",
-  },
+
   // {
   //   name: "Cat Facts",
   //   image: CatFacts,
@@ -67,6 +80,15 @@ export const portfolioData = [
     gitHub: "https://github.com/LauraTelqiu/Paint-Store.git",
     link: "https://lauratelqiu.github.io/Paint-Store/",
   },
+  {
+    name: "CRUD WebApp",
+    image: WhereTo,
+    summary:
+      "Collaborative project creating a web application for displaying top-rated restaurants in NYC with CRUD functionality.",
+    tech: "ReactJS, CSS, HTML",
+    gitHub: "https://github.com/LauraTelqiu/Restaurant-CRUD-WebApp",
+    link: "https://whereny.netlify.app/",
+  },
 
   {
     name: "Hater - Group Project",
@@ -77,6 +99,15 @@ export const portfolioData = [
     link: "https://haterip.netlify.app/",
   },
   {
+    name: "Flash Cards Game",
+    image: FlashCards,
+    summary:
+      "Flash Card Game to test and enhance understanding of European capital cities.The game randomly presents 10 countries per round to challenge your knowledge.",
+    tech: "JavaScript, CSS, HTML",
+    gitHub: "https://github.com/LauraTelqiu/Flash-Cards-Game.git",
+    link: "https://laee.netlify.app",
+  },
+  {
     name: "Tic-Tac-Toe Game",
     image: TicTacToe,
     summary:
@@ -85,15 +116,7 @@ export const portfolioData = [
     gitHub: "https://github.com/LauraTelqiu/tic-tac-toe.git",
     link: "https://ticttactoe.netlify.app",
   },
-  {
-    name: "CRUD WebApp",
-    image: WhereTo,
-    summary:
-      "Collaborative project creating a web application for displaying top-rated restaurants in NYC with CRUD functionality.",
-    tech: "ReactJS, CSS, HTML",
-    gitHub: "https://github.com/LauraTelqiu/Restaurant-CRUD-WebApp",
-    link: "https://whereny.netlify.app/",
-  },
+
 
   {
     name: "REST API",
