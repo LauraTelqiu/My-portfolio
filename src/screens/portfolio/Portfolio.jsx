@@ -34,8 +34,8 @@ function Portfolio() {
           <p>{data.summary}</p>
           <Image src={data.image} style={{ width: '200px', display: "block", marginLeft: "auto", marginRight: "auto" }} />
         </Modal.Body>
-        <a id="portfolio__modal__link" href={data.link} rel="noreferrer">Go to site</a>
-        <a id="portfolio__modal__link" href={data.gitHub} rel="noreferrer">GitHub</a>
+        <a id="portfolio__modal__link" href={data.link} target="_blank" rel="noreferrer">Go to site</a>
+        <a id="portfolio__modal__link" href={data.gitHub} target="_blank" rel="noreferrer">GitHub</a>
         <Modal.Footer>
           <div>Technologies used: </div>
           <p style={{ fontSize: '0.8rem', fontWeight: "bold", marginRight: 'auto' }}>{data.tech}</p>

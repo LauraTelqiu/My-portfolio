@@ -10,16 +10,16 @@ import GithubIcon from "@material-ui/icons/GitHub";
 
 function SocialMedia() {
   const linkedinClick = () => {
-    window.location.assign("https://www.linkedin.com/in/lauratelqiu/");
+    window.location.assign("https://www.linkedin.com/in/lauratelqiu/", "_blank");
 
   };
 
   const emailClick = () => {
-    window.location.assign("mailto:lauratelqiu@gmail.com");
+    window.open("mailto:lauratelqiu@gmail.com", "_blank");
   };
 
   const gitHubClick = () => {
-    window.location.assign("https://github.com/LauraTelqiu");
+    window.location.assign("https://github.com/LauraTelqiu", "_blank");
 
   };
 

@@ -38,8 +38,3 @@
   background-color: var(--light-color);
   border-radius: 50%;
 }
-
-.tech__card:hover {
-  background-color: var(--nav-color-hover);
-  transform: scale(1.05);
-}
