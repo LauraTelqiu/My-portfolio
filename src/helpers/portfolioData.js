@@ -12,6 +12,7 @@ import WhereToApi from "../images/whereToApi.jpg";
 import RestaurantApi from "../images/restaurant.jpg";
 import Cloud from "../images/cloud.png"
 import Backroads from "../images/backroads.png"
+import menu from "../images/menu.png"
 
 export const portfolioData = [
   {
@@ -41,6 +42,15 @@ export const portfolioData = [
     tech: "JavaScript, React, CSS",
     gitHub: "https://github.com/LauraTelqiu/Expense-Tracker",
     link: "https://expense-tracker-5b555b.netlify.app/",
+  },
+  {
+    name: "Restaurant Menu",
+    image: menu,
+    summary:
+      "React-based restaurant menu app displaying images, titles, descriptions, and prices of menu items. Offers category filtering via buttons.",
+    tech: "ReactJs, CSS",
+    gitHub: "https://github.com/LauraTelqiu/menu.git",
+    link: "https://menu-eatery.netlify.app/",
   },
   {
     name: "Pig Game",

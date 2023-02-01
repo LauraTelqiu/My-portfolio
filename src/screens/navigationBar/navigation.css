@@ -1,18 +1,9 @@
 .navigation_contanier {
   background-color: var(--nav-color);
-
-
-
-
-
-
 }
 
 .navbar-light .navbar-nav .nav-link {
-
   color: var(--bacground-color) !important;
-
-
 }
 
 .nav-link {
@@ -23,11 +14,8 @@
   color: var(--font-color) !important;
 } */
 
-
 .navbar-light .navbar-toggler-icon {
   filter: invert(1);
-
-
 }
 
 .links a:hover {

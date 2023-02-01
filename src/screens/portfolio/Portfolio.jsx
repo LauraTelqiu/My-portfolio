@@ -45,6 +45,8 @@ function Portfolio() {
     )
   }
 
+  const modal = createModal(tempData);
+
   const mapped = portfolioData.map((e, idx) => {
     return (
       <Card key={idx} id="portfolio__card__container">
@@ -59,13 +61,9 @@ function Portfolio() {
               tech: e.tech
             })
             setModalShow(true);
-
           }}
           src={e.image} />
         <div className="portfolio__click__info">&#x1F50E;&#xFE0E;</div>
-        {createModal(tempData)}
-
-
       </Card>
     )
   })
@@ -79,8 +77,49 @@ function Portfolio() {
           {mapped}
         </Row>
       </Container>
+      {modal}
     </div >
   )
+
+
+  // const mapped = portfolioData.map((e, idx) => {
+  //   return (
+  //     <Card key={idx} id="portfolio__card__container">
+  //       <Image className="portfolio__image"
+  //         onClick={() => {
+
+
+  //           setTempData({
+  //             image: e.image,
+  //             link: e.link,
+  //             gitHub: e.gitHub,
+  //             name: e.name,
+  //             summary: e.summary,
+  //             tech: e.tech
+  //           })
+  //           setModalShow(true);
+
+  //         }}
+  //         src={e.image} />
+  //       <div className="portfolio__click__info">&#x1F50E;&#xFE0E;</div>
+  //       {createModal(tempData)}
+
+
+  //     </Card>
+  //   )
+  // })
+
+  // return (
+  //   <div className="portfolio__main__container" id="portfolio">
+  //     <h1>PORTFOLIO</h1>
+
+  //     <Container fluid="lg" style={{ padding: '2rem 0' }}>
+  //       <Row>
+  //         {mapped}
+  //       </Row>
+  //     </Container>
+  //   </div >
+  // )
 }
 
 export default Portfolio;
