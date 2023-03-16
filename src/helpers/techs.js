@@ -13,6 +13,11 @@ export const techs = [
     name: 'CSS3',
     iconName: 'css3'
   },
+
+  {
+    name: 'Sass',
+    iconName: 'sass'
+  },
   {
     name: 'HTML 5',
     iconName: 'html5'

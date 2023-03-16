@@ -1,25 +1,28 @@
 .portfolio__main__container {
-  background-color: var(--background-color);
+  color: var(--nav-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 72%;
+  margin: 0 auto;
+  padding-top: 3%;
 }
 
 .portfolio__image {
-
-  height: 300px;
-  border-radius: 5px;
-  object-fit: cover;
-
-  /* background-size: cover; */
-
+  height: 11rem;
+  border-radius: 3px;
+  object-fit: fill;
 }
 
 .modal-header,
 .modal-footer {
-  background-color: var(--nav-color-hover);
-  color: var(--font-color-hover);
+  background-image: var(--background-color);
+  color: var(--font-color);
 }
 
 .modal-body {
-  background-color: var(--background-color);
+  background-color: rgb(244, 242, 238);
   color: var(--font-color-hover);
   text-align: center;
 }
@@ -31,10 +34,12 @@
 }
 
 #portfolio__card__container {
-  width: 50%;
+  width: 33%;
+
   padding: 10px;
   border: none;
   background-color: var(--background-color);
+  border-radius: 3px;
 }
 
 .portfolio__image:hover {
@@ -61,8 +66,12 @@
 
 #portfolio__modal__link {
   padding: 0 0 1rem 1rem;
-  background-color: var(--background-color);
+  background-color: rgb(244, 242, 238);
   color: var(--font-color-hover);
+}
+
+.portfolio__main__container a {
+  transition: all 0.3s ease;
 }
 
 #portfolio__modal__link:link {
@@ -70,10 +79,14 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+.modal-open .portfolio__main__container {
+  opacity: 0;
+}
+
+@media only screen and (max-width: 1000px) {
   #portfolio__card__container {
     width: 100%;
-    padding: 0.5rem 2.5rem;
+    padding: 1rem 2.5rem;
     border: none;
   }
 }

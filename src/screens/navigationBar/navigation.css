@@ -1,13 +1,19 @@
-.navigation_contanier {
+.navigation__container {
   background-color: var(--nav-color);
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: var(--bacground-color) !important;
+  color: var(--background-color) !important;
 }
 
 .nav-link {
   background-color: var(--nav-color);
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #f2d4a6;
+  transition: background-color 0.3s ease;
 }
 
 /* .navbar-light .navbar-brand {

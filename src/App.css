@@ -9,7 +9,7 @@
 }
 
 :root {
-  /* --nav-color: linear-gradient(to top left, #d98928 0%, #935509 100%); */
+  --nav-color: linear-gradient(to top left, #d98928 0%, #935509 100%);
   --nav-color: rgb(251, 194, 86);
   --background-color: linear-gradient(to top left, #c3c0c0 0%, rgb(52, 34, 1) 100%);
   --nav-color-hover: #fcf2e8;

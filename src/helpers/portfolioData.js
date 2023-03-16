@@ -13,23 +13,33 @@ import RestaurantApi from "../images/restaurant.jpg";
 import Cloud from "../images/cloud.png"
 import Backroads from "../images/backroads.png"
 import menu from "../images/menu.png"
+import royal from "../images/royal.png"
 
 export const portfolioData = [
+  {
+    name: "Royal Hotel Front-End Web",
+    image: royal,
+    summary:
+      "User-friendly website built with ReactJS and CSS, featuring a clear and concise navigation bar providing direct links to essential pages, including home, about us, rooms, reviews, and contact.",
+    tech: "ReactJs, CSS",
+    gitHub: "https://github.com/LauraTelqiu/royal-hotel",
+    link: "https://stayatroyalhotel.netlify.app/",
+  },
   {
     name: "Tour Company Web App",
     image: Backroads,
     summary:
-      "Web App featuring a navigation bar that provides access to various sections of the website, including links to social media accounts and displaying a logo.",
+      "Web App with highly functional navigation bar,enabling seamless access to multiple website sections, providing links to relevant social media accounts, and displaying the website's logo.",
     tech: "ReactJs, CSS",
     gitHub: "https://github.com/LauraTelqiu/backroads-app",
     link: "https://backroads-web-app.netlify.app/",
   },
 
   {
-    name: "Cloud Managment Web App",
+    name: "Cloud Management Web App",
     image: Cloud,
     summary:
-      "Cloud Managment Web App featuring a navigation bar that provides access to various sections of the website",
+      "Cloud Management Web App featuring a navigation bar that provides access to various sections of the website",
     tech: "ReactJS, Tailwind CSS",
     gitHub: "https://github.com/LauraTelqiu/cloud-managment-front-end-website",
     link: "https://cloud-managment-web.netlify.app/",

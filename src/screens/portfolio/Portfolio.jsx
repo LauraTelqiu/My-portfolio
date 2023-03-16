@@ -32,14 +32,15 @@ function Portfolio() {
         </Modal.Header>
         <Modal.Body>
           <p>{data.summary}</p>
-          <Image src={data.image} style={{ width: '200px', display: "block", marginLeft: "auto", marginRight: "auto" }} />
+          <Image src={data.image} style={{ width: '50%', display: "block", marginLeft: "auto", marginRight: "auto" }} />
+          <a id="portfolio__modal__link" href={data.link} target="_blank" rel="noreferrer">Site</a>
+          <a id="portfolio__modal__link" href={data.gitHub} target="_blank" rel="noreferrer">GitHub</a>
         </Modal.Body>
-        <a id="portfolio__modal__link" href={data.link} target="_blank" rel="noreferrer">Go to site</a>
-        <a id="portfolio__modal__link" href={data.gitHub} target="_blank" rel="noreferrer">GitHub</a>
+
         <Modal.Footer>
           <div>Technologies used: </div>
           <p style={{ fontSize: '0.8rem', fontWeight: "bold", marginRight: 'auto' }}>{data.tech}</p>
-          <Button style={{ color: "var( --font-color-hover)", backgroundColor: "var(--nav-color)", border: "1px solid var(--nav-color-hover)" }} onClick={() => setModalShow(false)}>Close</Button>
+          <Button style={{ color: "var(--font-color)", backgroundColor: "var( --background-color)", border: "1px solid var(--nav-color-hover)" }} onClick={() => setModalShow(false)}>Close</Button>
         </Modal.Footer>
       </Modal>
     )
