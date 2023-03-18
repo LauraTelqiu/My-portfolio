@@ -12,7 +12,7 @@ function Home() {
       <div className="about">
         {/* <img src={profilePic} alt="profile"></img> */}
         <h2>Laura Telqiu</h2>
-        <h3>Software Engineer</h3>
+        <h3>Frontend Developer</h3>
         <Typed
           strings={[
             " ",

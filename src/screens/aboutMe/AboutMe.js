@@ -1,5 +1,5 @@
 import React from "react";
-import "./aboutMe.css";
+import "./about.css";
 import profile from "../../images/profile.jpg";
 
 function AboutMe() {
@@ -9,18 +9,22 @@ function AboutMe() {
         <img className="profile" src={profile} alt="profile icon" />
       </div>
       <div className="about__text">
-        {/* <h1>About Me</h1> */}
+        <h1>About Me</h1>
         <p>
-          Software Engineer with a strong foundation in front-end development,
-          motivated by solving problems and overcoming challenges,constantly
-          seeking opportunities to learn and grow.An organized and determined team member that
-          doesn’t fight to outshine everyone, by bringing energy into
-          collaboration and working jointly to bring the project seamlessly to
-          fruition. A former accounting clerk who brings forward administrative
-          skills that result in a more compact outcome for software engineering
-          projects. Commitment to collaboration and thoroughness in
-          accomplishing tasks, ensure that internal code and user-facing
-          products are equally enjoyable to interact with!
+          Technologically advanced and highly adaptable professional with a
+          certification in software engineering immersive bootcamp from General
+          Assembly and front-end development from Codecademy; ready to leverage
+          expertise and contribute to the development of cutting-edge web
+          applications as a Frontend Developer. Demonstrated exceptional
+          communication and collaboration to coordinate all phases of
+          project-based efforts. Skilled in translating product requirements,
+          user research, usability feedback, and personal design specifications
+          into user-friendly and visually appealing websites/apps. Adept at
+          identifying and resolving complex front-end related bug issues
+          promptly. Capable of prioritizing and completing multitask assignments
+          within stringent deadlines. Dedicated to continually learning emerging
+          technologies, tools, techniques, and other best practices in web
+          development.
         </p>
       </div>
     </div>

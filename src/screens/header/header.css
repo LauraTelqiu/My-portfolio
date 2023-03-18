@@ -8,10 +8,12 @@
 
 .about img {
   object-fit: cover;
-  width: 180px;
+  object-position: top left;
+
+  width: 200px;
   height: 220px;
-  border-radius: 100%;
-  border: 20px solid #201815;
+  border-radius: 50%;
+  border: 1px solid #201815;
 }
 
 .about {
@@ -23,7 +25,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: var(--bacground-color);
+  background-color: var(--background-color);
   padding-top: 10%;
 }
 
