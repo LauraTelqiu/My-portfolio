@@ -4,13 +4,13 @@
 }
 
 .about__container img {
-  width: 9%;
-  height: calc(80% * 0.75);
+  width: 12%;
+  /* height: calc(80% * 0.75); */
   /* 0.75 is the aspect ratio of a 4:3 image */
   object-fit: contain;
   border: 3px solid #201815;
   border-radius: 3px;
-
+  padding: 2%;
   float: left;
   margin-right: 1rem;
   margin-top: 4rem;
@@ -38,10 +38,11 @@
 
   .about__container img {
     display: none;
+
   }
 
   .about__text {
-    font-size: medium;
+    font-size: large;
 
     text-align: left;
   }

@@ -38,3 +38,10 @@
   background-color: var(--light-color);
   border-radius: 50%;
 }
+
+@media only screen and (max-width: 768px) {
+  .technologies__container {
+    padding-top: 15%;
+  }
+
+}
