@@ -32,7 +32,8 @@
 @media only screen and (max-width: 768px) {
   .about__container {
     flex-direction: column;
-    padding: 25% 5%;
+    padding: 25% 10%;
+
   }
 
   .about__container img {
