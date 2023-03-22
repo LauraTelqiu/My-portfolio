@@ -14,14 +14,24 @@ import Cloud from "../images/cloud.png"
 import Backroads from "../images/backroads.png"
 import menu from "../images/menu.png"
 import royal from "../images/royal.png"
+import natours from "../images/natours.png"
 
 export const portfolioData = [
+  {
+    name: "Natours",
+    image: natours,
+    summary:
+      "Responsive and interactive fictional outdoor travel website using advanced CSS and Sass techniques.",
+    tech: "React, CSS3, Sass, Node.js, NPM",
+    gitHub: "https://github.com/LauraTelqiu/natours-react",
+    link: "https://seenature.netlify.app/",
+  },
   {
     name: "Royal Hotel Front-End Web",
     image: royal,
     summary:
       "User-friendly website built with ReactJS and CSS, featuring a clear and concise navigation bar providing direct links to essential pages, including home, about us, rooms, reviews, and contact.",
-    tech: "ReactJs, CSS",
+    tech: "React, CSS",
     gitHub: "https://github.com/LauraTelqiu/royal-hotel",
     link: "https://stayatroyalhotel.netlify.app/",
   },
@@ -30,7 +40,7 @@ export const portfolioData = [
     image: Backroads,
     summary:
       "Web App with highly functional navigation bar,enabling seamless access to multiple website sections, providing links to relevant social media accounts, and displaying the website's logo.",
-    tech: "ReactJs, CSS",
+    tech: "React, CSS",
     gitHub: "https://github.com/LauraTelqiu/backroads-app",
     link: "https://backroads-web-app.netlify.app/",
   },
@@ -40,7 +50,7 @@ export const portfolioData = [
     image: Cloud,
     summary:
       "Cloud Management Web App featuring a navigation bar that provides access to various sections of the website",
-    tech: "ReactJS, Tailwind CSS",
+    tech: "React, Tailwind CSS",
     gitHub: "https://github.com/LauraTelqiu/cloud-managment-front-end-website",
     link: "https://cloud-managment-web.netlify.app/",
   },
@@ -58,7 +68,7 @@ export const portfolioData = [
     image: menu,
     summary:
       "React-based restaurant menu app displaying images, titles, descriptions, and prices of menu items. Offers category filtering via buttons.",
-    tech: "ReactJs, CSS",
+    tech: "React, CSS",
     gitHub: "https://github.com/LauraTelqiu/menu.git",
     link: "https://menu-eatery.netlify.app/",
   },

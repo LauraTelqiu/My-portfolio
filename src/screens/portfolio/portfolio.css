@@ -1,4 +1,5 @@
 .portfolio__main__container {
+
   color: rgb(5, 5, 4);
   display: flex;
   flex-direction: column;
@@ -15,6 +16,8 @@
   border-radius: 3px;
   object-fit: fill;
 
+  border-bottom: 5px solid var(--nav-color);
+  border-top: 5px solid var(--nav-color);
 }
 
 .modal-header,
