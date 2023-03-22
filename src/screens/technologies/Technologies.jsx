@@ -1,13 +1,14 @@
 import React from 'react'
 import './technologies.css'
 import DevIcon from "devicon-react-svg";
+
 import { techs } from '../../helpers/techs'
 
 function Technologies() {
   return (
     <div className="technologies__container" id="technologies">
       <div>
-        <h1 className="tech-header" style={{ textAlign: 'center' }}>SOME OF TECHNOLOGIES I USE</h1>
+        <h1 className="tech-header">SKILLS</h1>
       </div>
       <div className="tech__cards__container">
         {techs.map((e, idx) => {

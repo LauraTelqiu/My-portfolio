@@ -34,6 +34,8 @@
   transition: all 0.1s;
 }
 
+.tech-header {}
+
 .tech__icons {
   height: 70px;
   background-color: var(--light-color);

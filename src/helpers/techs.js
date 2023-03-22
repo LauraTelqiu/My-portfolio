@@ -1,3 +1,5 @@
+
+
 export const techs = [
   {
     name: 'React',
@@ -18,6 +20,7 @@ export const techs = [
     name: 'Sass',
     iconName: 'sass'
   },
+
   {
     name: 'HTML 5',
     iconName: 'html5'
@@ -26,6 +29,8 @@ export const techs = [
     name: 'NodeJs',
     iconName: 'nodejs'
   },
+
+
 
   {
     name: 'NPM',

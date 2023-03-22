@@ -44,6 +44,15 @@ export const portfolioData = [
     gitHub: "https://github.com/LauraTelqiu/backroads-app",
     link: "https://backroads-web-app.netlify.app/",
   },
+  {
+    name: "Restaurant Menu",
+    image: menu,
+    summary:
+      "React-based restaurant menu app displaying images, titles, descriptions, and prices of menu items. Offers category filtering via buttons.",
+    tech: "React, CSS",
+    gitHub: "https://github.com/LauraTelqiu/menu.git",
+    link: "https://menu-eatery.netlify.app/",
+  },
 
   {
     name: "Cloud Management Web App",
@@ -63,15 +72,7 @@ export const portfolioData = [
     gitHub: "https://github.com/LauraTelqiu/Expense-Tracker",
     link: "https://expense-tracker-5b555b.netlify.app/",
   },
-  {
-    name: "Restaurant Menu",
-    image: menu,
-    summary:
-      "React-based restaurant menu app displaying images, titles, descriptions, and prices of menu items. Offers category filtering via buttons.",
-    tech: "React, CSS",
-    gitHub: "https://github.com/LauraTelqiu/menu.git",
-    link: "https://menu-eatery.netlify.app/",
-  },
+
   {
     name: "Pig Game",
     image: PigGame,
