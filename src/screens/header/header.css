@@ -27,6 +27,7 @@
   text-align: center;
   background-color: var(--background-color);
   padding-top: 10%;
+  border-bottom: 5px solid var(--nav-color);
 }
 
 .about h2 {

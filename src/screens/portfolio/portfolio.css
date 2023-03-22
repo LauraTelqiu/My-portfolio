@@ -9,6 +9,7 @@
   margin: 0 auto;
   padding-top: 3%;
   border-radius: solid 1px rgb(5, 5, 4);
+
 }
 
 .portfolio__image {
@@ -90,7 +91,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .portfolio__main__container {}
+
 
   #portfolio__card__container {
     width: 100%;
