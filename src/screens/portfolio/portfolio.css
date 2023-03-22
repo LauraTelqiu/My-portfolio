@@ -15,9 +15,10 @@
   height: 11rem;
   border-radius: 3px;
   object-fit: fill;
-
   border-bottom: 5px solid var(--nav-color);
   border-top: 5px solid var(--nav-color);
+  opacity: 0.8;
+
 }
 
 .modal-header,
