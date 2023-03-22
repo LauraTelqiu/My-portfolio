@@ -27,18 +27,18 @@
   align-items: center;
   text-align: center;
   background-color: var(--background-color);
-  padding-top: 10%;
+  /* padding-top: 10%; */
   border-bottom: 5px solid var(--nav-color);
 }
 
 .about h2 {
 
   /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
-  font-size: 60px;
+  font-size: 5rem;
   color: #f2d4a6;
   text-shadow: 2px 2px 9px #f6cd90;
   height: 50px;
-  padding-bottom: 5%;
+  padding-bottom: 7%;
 }
 
 .about .prompt {
