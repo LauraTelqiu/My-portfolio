@@ -61,9 +61,16 @@
 
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 912px) {
+  .about {
+    padding-bottom: 20%;
+    padding-top: 0;
+
+  }
+
   .about h2 {
-    font-size: 25px;
+    font-size: 3rem;
+    padding-bottom: 10%;
   }
 
   .about .prompt {
@@ -76,4 +83,11 @@
     width: 140px;
     height: 170px;
   } */
+}
+
+@media only screen and (max-width: 300px) {
+  .about h2 {
+    font-size: 2rem;
+  }
+
 }

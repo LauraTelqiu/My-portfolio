@@ -17,7 +17,7 @@ function AboutMe() {
             <img className="profile" src={profile} alt="profile icon" />
           </section>
           <section className="infoSection">
-            <h1>About Me</h1>
+            <h1>About</h1>
             <h2>Frontend Developer</h2>
             <p>
               Technologically advanced and highly adaptable professional with a
