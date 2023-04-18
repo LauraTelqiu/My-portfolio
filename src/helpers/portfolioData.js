@@ -2,7 +2,7 @@ import Expense from "../images/expense.png";
 import PigGame from "../images/pig-game.png";
 import GuessNumber from "../images/guessnum.png";
 import FlashCards from "../images/flashCards.jpg";
-import CatFacts from "../images/catFacts.jpg";
+// import CatFacts from "../images/catFacts.jpg";
 import PaintStore from "../images/paintStore.jpg";
 import Hater from "../images/hater.jpg";
 import TicTacToe from "../images/tic-tac-toe.jpg";
@@ -93,14 +93,14 @@ export const portfolioData = [
   },
 
 
-  {
-    name: "Cat Facts",
-    image: CatFacts,
-    summary: "User interface pattern built with React that utilizes a third-party API to display cat facts",
-    tech: "ReactJS, REST API, CSS",
-    gitHub: "https://github.com/LauraTelqiu/React-API-UI-Pattern.git",
-    link: "https://catland-react.netlify.app/",
-  },
+  // {
+  //   name: "Cat Facts",
+  //   image: CatFacts,
+  //   summary: "User interface pattern built with React that utilizes a third-party API to display cat facts",
+  //   tech: "ReactJS, REST API, CSS",
+  //   gitHub: "https://github.com/LauraTelqiu/React-API-UI-Pattern.git",
+  //   link: "https://catland-react.netlify.app/",
+  // },
 
   {
     name: "Paint Store",
