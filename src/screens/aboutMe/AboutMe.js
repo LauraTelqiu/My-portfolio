@@ -20,25 +20,16 @@ function AboutMe() {
             <h1>About Me</h1>
             <h2>Frontend Developer</h2>
             <p>
-              Technologically advanced and highly adaptable professional with a
-              certification in software engineering immersive bootcamp from
-              General Assembly and front-end development from Codecademy; ready
-              to leverage expertise and contribute to the development of
-              cutting-edge web applications as a Frontend Developer.
+              Hi there! I'm Laura Telqiu, a highly skilled and adaptable Front-End Developer with a passion for building cutting-edge web applications. I have a certification in Software Engineering from General Assembly and Front-End Development from Codecademy, bringing extensive experience and expertise in React, Javascript, HTML, CSS, Node.js, Express, MongoDB, and other technologies.
             </p>
             <p>
-              Demonstrated exceptional communication and collaboration to
-              coordinate all phases of project-based efforts. Skilled in
-              translating product requirements, user research, usability
-              feedback, and personal design specifications into user-friendly
-              and visually appealing websites/apps.
+              In addition to my technical expertise, I also have experience as an Accounts Payable Clerk at D.F. King & Co., Inc., where I developed a strong attention to detail and problem-solving skills. These skills have been instrumental in my transition to Front-End Development, where I am responsible for designing and implementing user interfaces with a high level of accuracy.
             </p>
             <p>
-              Adept at identifying and resolving complex front-end related bug
-              issues promptly. Capable of prioritizing and completing multitask
-              assignments within stringent deadlines. Dedicated to continually
-              learning emerging technologies, tools, techniques, and other best
-              practices in web development.
+              With my experience in both accounting and web development, I have developed strong organizational and time-management skills, allowing me to manage complex projects with tight deadlines effectively. I am dedicated to continually learning emerging technologies and best practices in web development, ensuring that I always bring innovative solutions to the table.
+            </p>
+            <p>
+              Overall, my proven track record of successfully managing complex projects and resolving issues promptly, coupled with my transferable skills gained from my experience as an Accounts Payable Clerk, makes me a valuable asset to any team in the field of Front-End Development.
             </p>
             {/* <div className="personalInfo">
               <div>
