@@ -5,16 +5,17 @@ import FlashCards from "../images/flashCards.jpg";
 // import CatFacts from "../images/catFacts.jpg";
 import PaintStore from "../images/paintStore.jpg";
 import Hater from "../images/hater.jpg";
-import TicTacToe from "../images/tic-tac-toe.jpg";
+// import TicTacToe from "../images/tic-tac-toe.jpg";
 import WhereTo from "../images/whereTo.jpg";
-import FriendsApi from "../images/friendsApi.jpg";
-import WhereToApi from "../images/whereToApi.jpg";
-import RestaurantApi from "../images/restaurant.jpg";
+// import FriendsApi from "../images/friendsApi.jpg";
+// import WhereToApi from "../images/whereToApi.jpg";
+// import RestaurantApi from "../images/restaurant.jpg";
 import Cloud from "../images/cloud.png"
 import Backroads from "../images/backroads.png"
 import menu from "../images/menu.png"
 import royal from "../images/royal.png"
 import natours from "../images/natours.png"
+import list from '../images/List.png'
 
 export const portfolioData = [
   {
@@ -39,7 +40,7 @@ export const portfolioData = [
     name: "Tour Company Web App",
     image: Backroads,
     summary:
-      "Web App with highly functional navigation bar,enabling seamless access to multiple website sections, providing links to relevant social media accounts, and displaying the website's logo.",
+      "Web App with a highly functional navigation bar,enabling seamless access to multiple website sections, providing links to relevant social media accounts, and displaying the website's logo.",
     tech: "React, CSS",
     gitHub: "https://github.com/LauraTelqiu/backroads-app",
     link: "https://backroads-web-app.netlify.app/",
@@ -72,12 +73,20 @@ export const portfolioData = [
     gitHub: "https://github.com/LauraTelqiu/Expense-Tracker",
     link: "https://expense-tracker-5b555b.netlify.app/",
   },
+  {
+    name: "Grocery Bud",
+    image: list,
+    summary: 'React application where users can manage their shopping list digitally that showcases essential React concepts like component hierarchy, state management, event handling, and conditional rendering.',
+    tech: "React, JavaScript, HTML, CSS, Local Storage",
+    gitHub: "https://github.com/LauraTelqiu/grocery-bud",
+    link: "https://groccerybud.netlify.app/",
+  },
 
   {
     name: "Pig Game",
     image: PigGame,
     summary:
-      "A dice game where players roll to earn points and lose them on a roll of 1. The game is interactive and has a user-friendly interface. The game logic is implemented using JavaScript and the winner is the one who reaches the highest point..",
+      "A dice game where players roll to earn points and lose them on a roll of 1. The game is interactive and has a user-friendly interface. The game logic is implemented using JavaScript and the winner is the one who reaches the highest point.",
     tech: "HTML, CSS, JavaScript",
     gitHub: "https://github.com/LauraTelqiu/pig-game",
     link: "https://piggameplaynow.netlify.app/",
@@ -138,41 +147,41 @@ export const portfolioData = [
     gitHub: "https://github.com/LauraTelqiu/Flash-Cards-Game.git",
     link: "https://laee.netlify.app",
   },
-  {
-    name: "Tic-Tac-Toe Game",
-    image: TicTacToe,
-    summary:
-      "A Javascript-based game in which two players take turns placing either an 'O' or 'X' in a 3x3 grid and the player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game",
-    tech: "JavaScript, HTML, CSS",
-    gitHub: "https://github.com/LauraTelqiu/tic-tac-toe.git",
-    link: "https://ticttactoe.netlify.app",
-  },
+  // {
+  //   name: "Tic-Tac-Toe Game",
+  //   image: TicTacToe,
+  //   summary:
+  //     "A Javascript-based game in which two players take turns placing either an 'O' or 'X' in a 3x3 grid and the player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game",
+  //   tech: "JavaScript, HTML, CSS",
+  //   gitHub: "https://github.com/LauraTelqiu/tic-tac-toe.git",
+  //   link: "https://ticttactoe.netlify.app",
+  // },
 
 
-  {
-    name: "REST API",
-    image: FriendsApi,
-    summary: "RESTful API that delivers CRUD operations for data related to Friends TV show, including production year, duration, director, ratings for all 236 episodes ",
-    tech: "ExpressJS, MongoDb",
-    gitHub: "https://github.com/LauraTelqiu/friends-tv-show-api.git",
-    link: "https://friends-show-api.herokuapp.com/api/",
-  },
-  {
-    name: "JSON API",
-    image: WhereToApi,
-    summary:
-      "JSON API providing information on highly sought-after dining, drinking and activity venues in New York City.",
-    tech: "ExpressJS, MongoDB JavaScript, NodeJS, REST API ",
-    gitHub: "https://github.com/LauraTelqiu/backend_api_restaurant",
-    link: "https://restaurant-backend-appication.herokuapp.com/api/",
-  },
-  {
-    name: "Restaurant Categories API",
-    image: RestaurantApi,
-    summary: " RESTful API that delivers information on various categories of restaurants.",
-    tech: "Python, Django",
-    gitHub: "https://github.com/LauraTelqiu/API-using-Python-Flask-and-SQL.git",
-    link: "",
-  },
+  // {
+  //   name: "REST API",
+  //   image: FriendsApi,
+  //   summary: "RESTful API that delivers CRUD operations for data related to Friends TV show, including production year, duration, director, ratings for all 236 episodes ",
+  //   tech: "ExpressJS, MongoDb",
+  //   gitHub: "https://github.com/LauraTelqiu/friends-tv-show-api.git",
+  //   link: "https://friends-show-api.herokuapp.com/api/",
+  // },
+  // {
+  //   name: "JSON API",
+  //   image: WhereToApi,
+  //   summary:
+  //     "JSON API providing information on highly sought-after dining, drinking and activity venues in New York City.",
+  //   tech: "ExpressJS, MongoDB JavaScript, NodeJS, REST API ",
+  //   gitHub: "https://github.com/LauraTelqiu/backend_api_restaurant",
+  //   link: "https://restaurant-backend-appication.herokuapp.com/api/",
+  // },
+  // {
+  //   name: "Restaurant Categories API",
+  //   image: RestaurantApi,
+  //   summary: " RESTful API that delivers information on various categories of restaurants.",
+  //   tech: "Python, Django",
+  //   gitHub: "https://github.com/LauraTelqiu/API-using-Python-Flask-and-SQL.git",
+  //   link: "",
+  // },
 ];
 export default portfolioData;

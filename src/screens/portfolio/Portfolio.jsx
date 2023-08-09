@@ -7,6 +7,9 @@ import Card from 'react-bootstrap/Card'
 import Image from 'react-bootstrap/Image'
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 
 
 
